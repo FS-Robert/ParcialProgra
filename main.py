@@ -3,7 +3,7 @@ from aparato import Aparato
 
 def main():
     print("Sistema de Control de Gasto Eléctrico - El Salvador")
-    tarifa = float(input("Ingrese el costo por kWh en dólares: "))
+    tarifa = float(input("Ingrese el costo por kWh en dólares que cobra la empresa: "))
     manager = ConsumoManager(tarifa)
 
     while True:
@@ -27,3 +27,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
